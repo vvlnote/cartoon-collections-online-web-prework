@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(array)
   # Your code here
-  array.find {|item|
+  array.any? {|item|
     item.length > 4
   }
 end
